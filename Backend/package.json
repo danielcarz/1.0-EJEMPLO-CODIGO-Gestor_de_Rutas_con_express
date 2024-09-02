@@ -1,0 +1,21 @@
+{
+  "name": "2.0-api_with_routes",
+  "version": "1.0.0",
+  "description": "A BASIC APLICATION OF ROUTING WITH NODE JS AND EXPRESS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "route",
+    "routing"
+  ],
+  "author": "Daniel Carmona Zapata",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

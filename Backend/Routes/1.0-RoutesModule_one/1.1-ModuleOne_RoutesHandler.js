@@ -3,9 +3,14 @@ const router = express.Router();
 
 
 //route testing
-router.get('/url_request_one', (req, res) => {
+router.get('/one_url_get_request', (req, res) => {
  
-    res.send('hello equest one')
+    res.send('hello module ONE: GET REQUETS');
+});
+
+router.post('/one_url_post_request', ( req, res ) => {
+
+        res.send(' hello MODULE ONE: POST REQUEST ');
 });
 
 module.exports = router;

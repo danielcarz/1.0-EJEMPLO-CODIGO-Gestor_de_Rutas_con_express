@@ -7,6 +7,15 @@ const getTesting = ( req, res ) =>{
 
 }
 
+const deleteById = (req, res) => {
+
+    const id = req.params.id;
+    
+
+
+
+}
+
 const handleRequestByID = ( req, res ) =>{
 
     const id = req.params.id;

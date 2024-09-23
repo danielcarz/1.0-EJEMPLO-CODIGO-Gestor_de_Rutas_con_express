@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 //routes modules
-const   genericRoutes  = require( '../Container/Routes/GenericRoutes'); 
+const   genericRoutes  = require( '../Container/httpMethods/GenericRoutes'); 
 
 
 //defining routes

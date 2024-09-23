@@ -1,8 +1,8 @@
 const express = require('express');
 
 //IMPORTS
-
 require('dotenv').config(); //DOTENV
+
 const morgan = require('morgan'); //MORGAN 
 
 const routesHandler = require('./Routes/genericsRoutes'); //ROUTES

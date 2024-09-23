@@ -5,7 +5,7 @@ require('dotenv').config(); //DOTENV
 
 const morgan = require('morgan'); //MORGAN 
 
-const routesHandler = require('./Routes/genericsRoutes'); //ROUTES
+const routesHandler = require('./Routes/RoutesHandler'); //ROUTES
 
 const app = express();
 
